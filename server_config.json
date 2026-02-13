@@ -1,0 +1,1 @@
+{"serverConfig": "{\"mcpServers\":{\"slack-claude-code-mcp\":{\"command\":\"npx\",\"args\":[\"-y\",\"slack-claude-code-integration\",\"node\",\"claude-code-mcp/index.js\"],\"values\":{}}}}"}

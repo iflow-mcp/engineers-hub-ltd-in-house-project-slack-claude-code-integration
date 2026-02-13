@@ -1,7 +1,11 @@
 {
   "name": "slack-claude-code-integration",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Slack integration for Claude Code using MCP (Model Context Protocol)",
+  "main": "dist/claude-code-mcp/index.js",
+  "bin": {
+    "slack-claude-code-mcp": "dist/claude-code-mcp/index.js"
+  },
   "scripts": {
     "build": "tsc && ./scripts/post-build.sh",
     "build:watch": "tsc --watch",
