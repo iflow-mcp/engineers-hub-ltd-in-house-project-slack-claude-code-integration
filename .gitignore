@@ -50,4 +50,6 @@ build/
 workspace/
 
 # Claude credentials
-.config/claude/
+package_name
+*_process.log
+error_info.json
