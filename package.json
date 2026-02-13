@@ -2,7 +2,6 @@
   "name": "slack-claude-code-integration",
   "version": "1.0.0",
   "description": "Slack integration for Claude Code using MCP (Model Context Protocol)",
-  "private": true,
   "scripts": {
     "build": "tsc && ./scripts/post-build.sh",
     "build:watch": "tsc --watch",
